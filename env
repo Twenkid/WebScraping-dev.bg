@@ -1,0 +1,8 @@
+FLASK_ENV=development
+FLASK_DEBUG=1
+FLASK_APP=app.py
+
+SQL_SERVER=localhost
+SQL_DATABASE=dev
+SQL_UID=root
+SQL_PWD=marko123
