@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="bg-BG" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://dev.bg/wp-content/themes/jobsdevbg/images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+  <!--link href="images/webclip.png" rel="apple-touch-icon"-->
+  <link href="https://gmpg.org/xfn/11" rel="profile"/>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">
+   !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  </script>
+  <title>
+   DEV.BG – Job board за IT обяви
+  </title>
+  <link href="//s.w.org" rel="dns-prefetch">
+   <link href="https://dev.bg/feed/" rel="alternate" title="DEV.BG » Хранилка" type="application/rss+xml">
+    <link href="https://dev.bg/comments/feed/" rel="alternate" title="DEV.BG » Хранилка за коментари" type="application/rss+xml"/>
+    <script>
+     window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/dev.bg\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style>
+     img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+    </style>
+    <link href="https://dev.bg/wp-content/plugins/post-views-counter/css/frontend.css?ver=1.3.4" id="post-views-counter-frontend-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/plugins/so-jobs-enhancements/assets/css/jobs-enhancements.css?ver=5.6.2" id="so-jobs-enhancements-css-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/plugins/so-jobs-subscriptions/css/components.css?ver=1.0" id="so-subscriptions-components-css-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/plugins/wp-job-manager-company-listings/assets/css/frontend.min.css?ver=5.6.2" id="wp-job-manager-company-frontend-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/events.css?ver=1.16.4" id="jobsdevbg-events-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/normalize.css?ver=1.16.4" id="jobsdevbg-normalize-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/jobboard.webflow.css?ver=1.16.4" id="jobsdevbg-jb-webflow-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/custom.css?ver=2021110110" id="jobsdevbg-custom-styles-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/events.css?ver=1.16.4" id="jobsdevbg-events-styles-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/components.css?ver=1.16.4" id="jobsdevbg-component-styles-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/templates.css?ver=1.16.4" id="jobsdevbg-template-styles-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/global.css?ver=1.16.4" id="jobsdevbg-global-styles-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/breakpoints.css?ver=1.16.4" id="jobsdevbg-breakpoints-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/photoswipe/photoswipe.css?ver=1.16.4" id="jobsdevbg-photoswipe-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/themes/jobsdevbg/css/photoswipe/default-skin/default-skin.css?ver=1.16.4" id="jobsdevbg-photoswipe-default-skin-css" media="all" rel="stylesheet"/>
+    <link href="https://dev.bg/wp-content/plugins/complianz-gdpr/assets/css/cookieconsent.min.css?ver=5.2.2" id="cmplz-cookie-css" media="all" rel="stylesheet"/>
+    <script id="jquery-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/jquery-3.6.0.min.js?ver=3.6.0">
+    </script>
+    <script id="ajax-login-script-js-extra">
+     var ajax_login_object = {"ajaxurl":"https:\/\/dev.bg\/wp-admin\/admin-ajax.php","redirecturl":"\/\/dev.bg\/","loadingmessage":"\u041c\u043e\u043b\u044f \u0438\u0437\u0447\u0430\u043a\u0430\u0439\u0442\u0435..."};
+    </script>
+    <script id="ajax-login-script-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/ajax-login-script.js?ver=5.6.2">
+    </script>
+    <script id="show-success-js" src="https://dev.bg/wp-content/plugins/so-jobs-enhancements/assets/js/application_success_msg.js?ver=1.0">
+    </script>
+    <link href="https://dev.bg/wp-json/" rel="https://api.w.org/"/>
+    <link href="https://dev.bg/wp-json/wp/v2/pages/451" rel="alternate" type="application/json"/>
+    <link href="https://dev.bg/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+    <link href="https://dev.bg/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+    <meta content="WordPress 5.6.2" name="generator">
+     <link href="https://dev.bg/" rel="canonical"/>
+     <link href="https://dev.bg/" rel="shortlink"/>
+     <link href="https://dev.bg/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdev.bg%2F" rel="alternate" type="application/json+oembed"/>
+     <link href="https://dev.bg/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdev.bg%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+     <!-- Google Tag Manager -->
+     <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N2Z3HW8'); window.dataLayer = window.dataLayer || [];
+     </script>
+     <!-- End Google Tag Manager -->
+     <script>
+      document.addEventListener( 'openMap', function( event ) { window.dataLayer.push({'event': "content_views", 'type': "companies_map_opened", 'attributes': [], 'isLogged': "non-logged"}); }, false );
+     </script>
+     <meta content="Piklist 1.0.11" name="generator">
+      <style type="text/css">
+       #wp-admin-bar-pvc-post-views .pvc-graph-container { padding-top: 6px; padding-bottom: 6px; position: relative; display: block; height: 100%; box-sizing: border-box; }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph {
+					display: inline-block;
+					width: 1px;
+					margin-right: 1px;
+					background-color: #ccc;
+					vertical-align: baseline;
+				}
+				#wp-admin-bar-pvc-post-views .pvc-line-graph:hover { background-color: #eee; }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-0 { height: 1% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-1 { height: 5% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-2 { height: 10% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-3 { height: 15% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-4 { height: 20% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-5 { height: 25% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-6 { height: 30% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-7 { height: 35% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-8 { height: 40% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-9 { height: 45% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-10 { height: 50% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-11 { height: 55% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-12 { height: 60% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-13 { height: 65% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-14 { height: 70% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-15 { height: 75% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-16 { height: 80% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-17 { height: 85% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-18 { height: 90% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-19 { height: 95% }
+				#wp-admin-bar-pvc-post-views .pvc-line-graph-20 { height: 100% }
+      </style>
+      <!-- START - Open Graph and Twitter Card Tags 3.1.1 -->
+      <!-- Facebook Open Graph -->
+      <meta content="DEV.BG" property="og:site_name"/>
+      <meta content="Обяви за работа" property="og:title"/>
+      <meta content="https://dev.bg/" property="og:url"/>
+      <meta content="Job board за IT обяви" property="og:description"/>
+      <meta content="https://dev.bg/wp-content/uploads/og/jobs-og.png?v=2021110715" property="og:image"/>
+      <meta content="https://dev.bg/wp-content/uploads/og/jobs-og.png?v=2021110715" property="og:image:url"/>
+      <meta content="https://dev.bg/wp-content/uploads/og/jobs-og.png?v=2021110715" property="og:image:secure_url"/>
+      <meta content="https://www.facebook.com/devbulgaria/" property="article:publisher"/>
+      <!-- Google+ / Schema.org -->
+      <!-- Twitter Cards -->
+      <meta content="Обяви за работа" name="twitter:title"/>
+      <meta content="https://dev.bg/" name="twitter:url"/>
+      <meta content="Job board за IT обяви" name="twitter:description"/>
+      <meta content="https://dev.bg/wp-content/uploads/og/jobs-og.png?v=2021110715" name="twitter:image"/>
+      <meta content="summary_large_image" name="twitter:card"/>
+      <meta content="@devbulgaria" name="twitter:site"/>
+      <!-- SEO -->
+      <!-- Misc. tags -->
+      <!-- is_singular -->
+      <!-- END - Open Graph and Twitter Card Tags 3.1.1 -->
+      <noscript>
+       <style id="rocket-lazyload-nojs-css">
+        .rll-youtube-player, [data-lazy-src]{display:none !important;}
+       </style>
+      </noscript>
+     </meta>
+    </meta>
+   </link>
+  </link>
+ </head>
+ <body class="home page-template page-template-page-job-categories page-template-page-job-categories-php page page-id-451 wp-custom-logo jobsdevbg" data-cmplz="1">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-N2Z3HW8" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header class="site-header">
+   <nav class="nav">
+    <div class="container full-width-container nav-container">
+     <div class="header-left">
+      <a class="nav-logo w-inline-block" href="https://dev.bg">
+       <img alt="DEV.BG" class="dev-bg-logo" data-lazy-src="https://dev.bg/wp-content/uploads/2020/07/logo.png" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+       <noscript>
+        <img alt="DEV.BG" class="dev-bg-logo" src="https://dev.bg/wp-content/uploads/2020/07/logo.png"/>
+       </noscript>
+      </a>
+     </div>
+     <ul class="nav-links">
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-451 current_page_item menu-item-9962 menu-item-dev.bg first-menu-item" id="menu-item-9962">
+       <a aria-current="page" href="https://dev.bg/">
+        <div class="nav-link-txt">
+         Обяви
+        </div>
+       </a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9961 menu-item-company" id="menu-item-9961">
+       <a href="https://dev.bg/company/">
+        <div class="nav-link-txt">
+         Компании
+        </div>
+       </a>
+      </li>
+      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19339 menu-item-%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f" id="menu-item-19339">
+       <a href="https://dev.bg/%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/">
+        <div class="nav-link-txt">
+         Събития
+        </div>
+       </a>
+       <ul class="sub-menu simplified">
+        <div class="submenu-left">
+         <li class="icon-devbg-event menu-item menu-item-type-post_type menu-item-object-page menu-item-19340 submenu-item" id="menu-item-19340">
+          <a href="https://dev.bg/%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/">
+           <div class="nav-link-txt">
+            Събитията на DEV.BG
+           </div>
+          </a>
+         </li>
+         <li class="icon-user-group menu-item menu-item-type-custom menu-item-object-custom menu-item-19341 submenu-item" id="menu-item-19341">
+          <a href="https://dev.bg/groups/">
+           <div class="nav-link-txt">
+            Потребителски групи
+           </div>
+          </a>
+         </li>
+        </div>
+        <div class="submenu-right">
+         <a href="https://dev.bg">
+          <img class="menu-banner" src=""/>
+         </a>
+        </div>
+       </ul>
+      </li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11686 menu-item-digest" id="menu-item-11686">
+       <a href="https://dev.bg/digest/">
+        <div class="nav-link-txt">
+         Digest
+        </div>
+       </a>
+      </li>
+      <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19342 menu-item-za-dev-bg" id="menu-item-19342">
+       <a href="#">
+        <div class="nav-link-txt">
+         За DEV.BG
+        </div>
+       </a>
+       <ul class="sub-menu simplified">
+        <div class="submenu-left">
+         <li class="icon-team menu-item menu-item-type-post_type menu-item-object-page menu-item-19346 submenu-item" id="menu-item-19346">
+          <a href="https://dev.bg/the-team/">
+           <div class="nav-link-txt">
+            Екипът на DEV.BG
+           </div>
+          </a>
+         </li>
+         <li class="icon-employer menu-item menu-item-type-post_type menu-item-object-page menu-item-19343 submenu-item" id="menu-item-19343">
+          <a href="https://dev.bg/for-employers/">
+           <div class="nav-link-txt">
+            За работодатели
+           </div>
+          </a>
+         </li>
+         <li class="icon-contacts menu-item menu-item-type-post_type menu-item-object-page menu-item-19344 submenu-item" id="menu-item-19344">
+          <a href="https://dev.bg/kontakti/">
+           <div class="nav-link-txt">
+            Контакти
+           </div>
+          </a>
+         </li>
+         <li class="icon-partners menu-item menu-item-type-post_type menu-item-object-page menu-item-19345 submenu-item" id="menu-item-19345">
+          <a href="https://dev.bg/partners/">
+           <div class="nav-link-txt">
+            Партньори
+           </div>
+          </a>
+         </li>
+        </div>
+        <div class="submenu-right">
+         <a href="https://dev.bg">
+          <img class="menu-banner" src=""/>
+         </a>
+        </div>
+       </ul>
+      </li>
+     </ul>
+     <div class="nav-right-btn">
+      <a class="btn btn-size-1 w-inline-block" href="">
+       <div class="btn-txt">
+        За работодатели
+       </div>
+      </a>
+     </div>
+     <div class="login-links">
+      <a class="header-language-switch hide-for-small" href="https://dev.bg/en/">
+       EN
+      </a>
+      <a class="button secondary subscriber-login-btn btn btn-size-1">
+       Вход
+      </a>
+      <a class="button subscriber-register-btn btn btn-size-1 cta-btn">
+       Създай профил
+      </a>
+     </div>
+     <nav class="mobile-menu" role="navigation">
+      <div id="menuToggle">
+       <input id="mobile-toggle" type="checkbox"/>
+       <!-- hamburger spans -->
+       <span>
+       </span>
+       <span>
+       </span>
+       <span>
+       </span>
+       <ul id="menu">
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-451 current_page_item menu-item-9962">
+         <a aria-current="page" href="https://dev.bg/">
+          <div class="nav-link-txt">
+           Обяви
+          </div>
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9961">
+         <a href="https://dev.bg/company/">
+          <div class="nav-link-txt">
+           Компании
+          </div>
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19339">
+         <a href="https://dev.bg/%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/">
+          <div class="nav-link-txt">
+           Събития
+          </div>
+         </a>
+         <ul class="sub-menu simplified">
+          <div class="submenu-left">
+           <li class="icon-devbg-event menu-item menu-item-type-post_type menu-item-object-page menu-item-19340 submenu-item">
+            <a href="https://dev.bg/%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/">
+             <div class="nav-link-txt">
+              Събитията на DEV.BG
+             </div>
+            </a>
+           </li>
+           <li class="icon-user-group menu-item menu-item-type-custom menu-item-object-custom menu-item-19341 submenu-item">
+            <a href="https://dev.bg/groups/">
+             <div class="nav-link-txt">
+              Потребителски групи
+             </div>
+            </a>
+           </li>
+          </div>
+          <div class="submenu-right">
+           <a href="https://dev.bg">
+            <img class="menu-banner" src=""/>
+           </a>
+          </div>
+         </ul>
+        </li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11686">
+         <a href="https://dev.bg/digest/">
+          <div class="nav-link-txt">
+           Digest
+          </div>
+         </a>
+        </li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19342">
+         <a href="#">
+          <div class="nav-link-txt">
+           За DEV.BG
+          </div>
+         </a>
+         <ul class="sub-menu simplified">
+          <div class="submenu-left">
+           <li class="icon-team menu-item menu-item-type-post_type menu-item-object-page menu-item-19346 submenu-item">
+            <a href="https://dev.bg/the-team/">
+             <div class="nav-link-txt">
+              Екипът на DEV.BG
+             </div>
+            </a>
+           </li>
+           <li class="icon-employer menu-item menu-item-type-post_type menu-item-object-page menu-item-19343 submenu-item">
+            <a href="https://dev.bg/for-employers/">
+             <div class="nav-link-txt">
+              За работодатели
+             </div>
+            </a>
+           </li>
+           <li class="icon-contacts menu-item menu-item-type-post_type menu-item-object-page menu-item-19344 submenu-item">
+            <a href="https://dev.bg/kontakti/">
+             <div class="nav-link-txt">
+              Контакти
+             </div>
+            </a>
+           </li>
+           <li class="icon-partners menu-item menu-item-type-post_type menu-item-object-page menu-item-19345 submenu-item">
+            <a href="https://dev.bg/partners/">
+             <div class="nav-link-txt">
+              Партньори
+             </div>
+            </a>
+           </li>
+          </div>
+          <div class="submenu-right">
+           <a href="https://dev.bg">
+            <img class="menu-banner" src=""/>
+           </a>
+          </div>
+         </ul>
+        </li>
+        <div class="menu-buttons-wrap">
+         <a class="header-language-switch" href="https://dev.bg/en/">
+          EN
+         </a>
+         <a class="button secondary subscriber-login-btn btn btn-size-1">
+          Вход
+         </a>
+         <a class="button subscriber-register-btn btn btn-size-1 cta-btn">
+          Създай профил
+         </a>
+        </div>
+       </ul>
+      </div>
+     </nav>
+    </div>
+   </nav>
+  </header>
+  <!-- these popup forms must be relative to the body -->
+  <!-- Login form -->
+  <div class="curtain">
+  </div>
+  <div class="subscriber-login-wrapper">
+   <div class="close-form">
+    +
+   </div>
+   <h2>
+    Вход
+   </h2>
+   <p>
+    Въведи своя e-mail и парола за вход, ако вече имаш създаден профил в DEV.BG/Jobs
+   </p>
+   <form action="login" id="subscriber-login" method="post">
+    <p class="status">
+    </p>
+    <div class="login-username">
+     <label for="username">
+      Имейл
+     </label>
+     <input id="username" name="username" type="text"/>
+    </div>
+    <div class="login-password">
+     <label for="login-password">
+      Парола
+     </label>
+     <input id="login-password" name="password" type="password"/>
+    </div>
+    <div class="btns-wrapper">
+     <span class="w-inline-block btn-reset">
+      Забравена парола?
+     </span>
+     <span class="login-submit">
+      <input class="button button-primary login-submit" name="submit" type="submit" value="Вход"/>
+     </span>
+    </div>
+    <input id="security" name="security" type="hidden" value="687a63c630">
+     <input name="_wp_http_referer" type="hidden" value="/">
+     </input>
+    </input>
+   </form>
+  </div>
+  <!-- /.devbg-offcanvas-form login -->
+  <!-- Registration Form -->
+  <div class="curtain">
+  </div>
+  <div class="subscriber-register-wrapper">
+   <div class="close-form close-alert">
+    +
+   </div>
+   <h2>
+    Създай своя профил в DEV.BG/Jobs
+   </h2>
+   <form action="/" id="user-registration-form" method="post">
+    <label class="user-form-label" for="fname">
+     Име
+     <span class="text-red">
+      *
+     </span>
+    </label>
+    <input class="subscriber-register" id="fname" name="fname" type="text" value=""/>
+    <label class="user-form-label" for="lname">
+     Фамилия
+     <span class="text-red">
+      *
+     </span>
+    </label>
+    <input class="subscriber-register" id="lname" name="lname" type="text" value=""/>
+    <label class="user-form-label" for="email">
+     Имейл
+     <span class="text-red">
+      *
+     </span>
+    </label>
+    <input class="subscriber-register" id="email" name="email" type="email" value=""/>
+    <label class="user-form-label" for="password">
+     Парола
+     <span class="text-red">
+      *
+     </span>
+    </label>
+    <input class="subscriber-register" id="password" name="password" type="password" value=""/>
+    <p for="subscriber-register-quiz">
+     За да потвърдите, че не сте робот, моля отговорете на въпроса, като попълните празното поле:
+    </p>
+    61 - 59 =
+    <input id="quiz-question-id" name="quiz-question-id" type="hidden" value="2"/>
+    <input class="subscriber-register-quiz" id="subscriber-register-quiz" name="quiz-answer" type="text"/>
+    <div class="subscriber-consent">
+     <input class="subscriber-register-consent" id="subscriber-register-consent" type="checkbox"/>
+     <span>
+      Съгласен съм DEV.BG да обработва личните ми данни съгласно
+      <a href="https://dev.bg/gdpr/" target="_blank">
+       Уведомлението за поверителност
+      </a>
+     </span>
+    </div>
+    <p id="consent-error" style="color: red">
+    </p>
+    <input class="btn btn-size-1 cta-btn d-inline-block user-register-submit" name="Submitted" type="button" value="Създай профил">
+    </input>
+   </form>
+  </div>
+  <!-- /.devbg-offcanvas-form login -->
+  <!-- Reset Form -->
+  <div class="curtain">
+  </div>
+  <div class="subscriber-reset-wrapper">
+   <div class="close-form">
+    +
+   </div>
+   <h2>
+    Забравена парола
+   </h2>
+   <p>
+    Въведи своя e-mail и ще ти изпратим твоята парола
+   </p>
+   <form id="lost-password-form">
+    <p class="status">
+    </p>
+    <label class="user-form-label" for="subscriber-reset">
+     Имейл
+     <span class="text-red">
+      *
+     </span>
+    </label>
+    <input class="subscriber-reset" id="user_login" name="user_login" type="email"/>
+    <input class="btn btn-size-1 cta-btn d-inline-block" id="lost-password-button" type="submit" value="Изпрати"/>
+    <input id="pass-security" name="pass-security" type="hidden" value="4a39a0166b">
+     <input name="_wp_http_referer" type="hidden" value="/">
+     </input>
+    </input>
+   </form>
+  </div>
+  <!-- /.devbg-offcanvas-form login -->
+  <main class="site-main" id="primary">
+   <section class="homepage-header">
+    <div class="inner container">
+     <h1 class="title h1">
+      <span class="big">
+       5542
+      </span>
+      IT обяви
+     </h1>
+     <h3 class="subtitle h3">
+      <span>
+       Job Board
+      </span>
+      за IT общността
+     </h3>
+     <div class="search-wrapper">
+      <form action="https://dev.bg/" class="search">
+       <input autocomplete="off" class="search-input" name="s" placeholder="Търси по ключова дума в текстовете на всички обяви" type="search"/>
+       <input class="search-submit" type="submit" value="Търси"/>
+       <input name="post_type" type="hidden" value="job_listing"/>
+      </form>
+     </div>
+     <div class="cta-wrapper" id="homepage-cta-scroll">
+      <a class="cta-link">
+       Виж обявите подредени
+      </a>
+     </div>
+    </div>
+   </section>
+   <div class="section homepage-section homepage-categories">
+    <div class="inner">
+     <div class="container">
+      <div class="section-category-block" id="section-category-block">
+       <div class="category-block color-back-end-development border-right border-bottom">
+        <a class="section-collapse">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/back-end-development/">
+          Backend Development
+          <span class="job-qty">
+           1895
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/java/">
+          <div class="term-icon icon-java">
+          </div>
+          Java
+          <span class="child-qty">
+           596
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/net/">
+          <div class="term-icon icon-dotnet">
+          </div>
+          .NET
+          <span class="child-qty">
+           359
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/php/">
+          <div class="term-icon icon-php">
+          </div>
+          PHP
+          <span class="child-qty">
+           235
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/c/">
+          <div class="term-icon icon-cpp">
+          </div>
+          C/C++/Embedded
+          <span class="child-qty">
+           192
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/python/">
+          <div class="term-icon icon-python">
+          </div>
+          Python
+          <span class="child-qty">
+           158
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/ruby/">
+          <div class="term-icon icon-ruby">
+          </div>
+          Ruby
+          <span class="child-qty">
+           47
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/go/">
+          <div class="term-icon icon-golang">
+          </div>
+          Go
+          <span class="child-qty">
+           74
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/node-js/">
+          <div class="term-icon icon-nodejs">
+          </div>
+          Node.js
+          <span class="child-qty">
+           150
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/back-end-development/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-infrastructure border-right border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/operations/">
+          Infrastructure
+          <span class="job-qty">
+           1052
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/devops/">
+          <div class="term-icon icon-devops">
+          </div>
+          DevOps
+          <span class="child-qty">
+           526
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/database-engineer/">
+          <div class="term-icon icon-db-engineer">
+          </div>
+          Database Engineer
+          <span class="child-qty">
+           121
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/it-security/">
+          <div class="term-icon icon-it-security">
+          </div>
+          IT Security
+          <span class="child-qty">
+           115
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/sysadmin/">
+          <div class="term-icon icon-sysadmin">
+          </div>
+          SysAdmin
+          <span class="child-qty">
+           232
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/operations/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-mobile-development border-right">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/mobile-development/">
+          Mobile Development
+          <span class="job-qty">
+           217
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/ios-development/">
+          <div class="term-icon icon-ios">
+          </div>
+          iOS
+          <span class="child-qty">
+           82
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/android-development/">
+          <div class="term-icon icon-android">
+          </div>
+          Android
+          <span class="child-qty">
+           104
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/mobile-development/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-front-end-development border-right border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/front-end-development/">
+          Frontend Development
+          <span class="job-qty">
+           1028
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/javascript/">
+          <div class="term-icon icon-js">
+          </div>
+          JavaScript
+          <span class="child-qty">
+           1000
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/react/">
+          <div class="term-icon icon-react">
+          </div>
+          React
+          <span class="child-qty">
+           292
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/angular/">
+          <div class="term-icon icon-angular">
+          </div>
+          Angular
+          <span class="child-qty">
+           131
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/vue-js/">
+          <div class="term-icon icon-vuejs">
+          </div>
+          Vue.js
+          <span class="child-qty">
+           57
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/front-end-development/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-quality-assurance border-right border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/quality-assurance/">
+          Quality Assurance
+          <span class="job-qty">
+           490
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/automation-qa/">
+          <div class="term-icon icon-automation-qa">
+          </div>
+          Automation QA
+          <span class="child-qty">
+           376
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/manual-qa/">
+          <div class="term-icon icon-manual-qa">
+          </div>
+          Manual QA
+          <span class="child-qty">
+           71
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/quality-assurance/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-data-science border-right">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/data-science/">
+          Data Science
+          <span class="job-qty">
+           286
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/etl-data-warehouse/">
+          <div class="term-icon icon-data-wh">
+          </div>
+          ETL/Data warehouse
+          <span class="child-qty">
+           67
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/big-data/">
+          <div class="term-icon icon-big-data">
+          </div>
+          Big Data
+          <span class="child-qty">
+           21
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/bi-data-visualization/">
+          <div class="term-icon icon-bi-data">
+          </div>
+          BI/Data visualization
+          <span class="child-qty">
+           94
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/ml-ai-data/">
+          <div class="term-icon icon-data-modeling">
+          </div>
+          ML/AI/Data modelling
+          <span class="child-qty">
+           54
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/data-science/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-full-stack-development border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/full-stack-development/">
+          Fullstack Development
+          <span class="job-qty">
+           483
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/full-stack-development/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-pm-ba-and-more border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/pm-ba-and-more/">
+          PM/BA and more
+          <span class="job-qty">
+           615
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/it-project-management/">
+          <div class="term-icon icon-pm">
+          </div>
+          IT Project Management
+          <span class="child-qty">
+           181
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/business-analyst/">
+          <div class="term-icon icon-ba">
+          </div>
+          IT Business Analyst
+          <span class="child-qty">
+           123
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/product-management/">
+          <div class="term-icon icon-product-manager">
+          </div>
+          Product Management
+          <span class="child-qty">
+           94
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/pm-ba-and-more/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-erp-crm-development border-bottom">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/erp-crm-development/">
+          ERP / CRM Development
+          <span class="job-qty">
+           174
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/sap/">
+          <div class="term-icon icon-sap">
+          </div>
+          SAP
+          <span class="child-qty">
+           75
+          </span>
+         </a>
+        </div>
+        <div class="child-term">
+         <a href="https://dev.bg/company/jobs/salesforce/">
+          <div class="term-icon icon-salesforce">
+          </div>
+          SalesForce
+          <span class="child-qty">
+           68
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/erp-crm-development/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+       <div class="category-block color-ui-ux-and-arts">
+        <a class="section-collapse collapsed">
+         <img alt="Collapse section" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+         <noscript>
+          <img alt="Collapse section" src="https://dev.bg/wp-content/themes/jobsdevbg/images/arrow-right-blue.svg"/>
+         </noscript>
+        </a>
+        <div class="category-block-title-holder">
+         <a class="category-name" href="https://dev.bg/company/jobs/ui-ux-and-arts/">
+          UI/UX, Arts
+          <span class="job-qty">
+           129
+          </span>
+         </a>
+        </div>
+        <div class="mt-25 w-100">
+         <a class="show-all-jobs-cat" href="https://dev.bg/company/jobs/ui-ux-and-arts/">
+          Виж всички
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="section homepage-section homepage-other-categories">
+    <div class="inner container">
+     <div class="other-job-categories">
+      <div class="big-box">
+       <div class="p-big">
+        Първа работа в IT сектора
+       </div>
+       <div class="text-center category-text">
+        <p>
+         Всяко начало е трудно. Затова направихме специален миниборд с всички Junior и Intern обяви. Можеш да ги намериш и в съответните минибордове по професии/технологии.
+        </p>
+       </div>
+       <a class="btn btn-size-1 cta-btn cta-btn-with-icon w-inline-block" href="https://dev.bg/company/jobs/junior-intern/">
+        <div>
+         Junior/Intern обяви
+         <span class="job-qty">
+          (337)
+         </span>
+        </div>
+       </a>
+      </div>
+      <div class="big-box">
+       <div class="p-big">
+        IT Management обяви за работа
+       </div>
+       <div class="text-center category-text">
+        <p>
+         Селекция от обявите на високо управленско ниво в IT сектора - Director, Engineering Manager, Architect, VP, CXO... Lead позициите са в минибордовете по технологии/професии.
+        </p>
+       </div>
+       <a class="btn btn-size-1 cta-btn cta-btn-with-icon w-inline-block" href="https://dev.bg/company/jobs/it-management/">
+        <div>
+         Management обяви
+         <span class="job-qty">
+          (103)
+         </span>
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <!-- #main -->
+  <footer class="section footer-section">
+   <div class="container footer-grid">
+    <div class="footer-col">
+     <div class="footer-col-header">
+      <img alt="" class="logo-devbg-footer" data-lazy-src="https://dev.bg/wp-content/uploads/2020/07/logo.png" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+      <noscript>
+       <img alt="" class="logo-devbg-footer" src="https://dev.bg/wp-content/uploads/2020/07/logo.png"/>
+      </noscript>
+     </div>
+     <div class="footer-divider">
+     </div>
+     <div class="footer-col-content">
+      Job board за IT обяви
+     </div>
+    </div>
+    <div class="footer-col">
+     <div class="footer-col-header">
+      <div class="footer-col-name">
+       За DEV.BG
+      </div>
+     </div>
+     <div class="footer-divider">
+     </div>
+     <div class="footer-col-content">
+      <ul class="menu" id="menu-za-dev-bg">
+       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1324 menu-item-za-nas-2 first-menu-item" id="menu-item-1324">
+        <a href="https://dev.bg/%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b8/">
+         За нас
+        </a>
+        <ul class="sub-menu">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1328 menu-item-reklama" id="menu-item-1328">
+          <a href="https://dev.bg/present/">
+           Реклама
+          </a>
+          <ul class="sub-menu">
+           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66185 menu-item-terms" id="menu-item-66185">
+            <a href="https://dev.bg/terms/">
+             Общи Условия
+            </a>
+           </li>
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7084 menu-item-uvedomlenie-za-poveritelnost" id="menu-item-7084">
+            <a href="https://dev.bg/gdpr/">
+             Уведомление за поверителност
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64805 menu-item-politika-za-izpolzvane-na-biskvitki last-menu-item" id="menu-item-64805">
+              <a href="https://dev.bg/politika-za-izpolzvane-na-biskvitki/">
+               Политика за използване на бисквитки
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="footer-col">
+     <div class="footer-col-header">
+      <div class="footer-col-name">
+       DEV.BG Events
+      </div>
+     </div>
+     <div class="footer-divider">
+     </div>
+     <div class="footer-col-content">
+      <ul class="menu" id="menu-dev-bg-events">
+       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1329 menu-item-potrebitelski-grupi first-menu-item" id="menu-item-1329">
+        <a href="https://dev.bg/groups/">
+         Потребителски групи
+        </a>
+        <ul class="sub-menu">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1330 menu-item-it-sabitija" id="menu-item-1330">
+          <a href="https://dev.bg/%d0%b8%d1%82-%d1%81%d1%8a%d0%b1%d0%b8%d1%82%d0%b8%d1%8f/">
+           ИТ Събития
+          </a>
+          <ul class="sub-menu">
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1332 menu-item-partnori last-menu-item" id="menu-item-1332">
+            <a href="https://dev.bg/%d0%bf%d0%b0%d1%80%d1%82%d0%bd%d1%8c%d0%be%d1%80%d0%b8/">
+             Партньори
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="footer-col">
+     <div class="footer-col-header">
+      <div class="footer-col-name">
+       DEV.BG Jobs
+      </div>
+     </div>
+     <div class="footer-divider">
+     </div>
+     <div class="footer-col-content">
+      <ul class="menu" id="menu-dev-bg-jobs">
+       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1333 menu-item-it-objavi-za-rabota first-menu-item" id="menu-item-1333">
+        <a href="https://dev.bg/company/jobs/">
+         ИТ Обяви за работа
+        </a>
+        <ul class="sub-menu">
+         <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1334 menu-item-it-rabotodateli" id="menu-item-1334">
+          <a href="#">
+           ИТ Работодатели
+          </a>
+          <ul class="sub-menu">
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1335 menu-item-za-rabotodateli" id="menu-item-1335">
+            <a href="https://dev.bg/for-employers/">
+             За Работодатели
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56554 menu-item-referenced-on-jobboardfinder last-menu-item" id="menu-item-56554">
+        <a href="https://www.jobboardfinder.com/jobboard-devbg-bulgaria?utm_source=logo_referenced&amp;utm_medium=logo_jobboard&amp;utm_content=logo_referenced&amp;utm_campaign=logo_jobboard">
+         Referenced on Jobboardfinder
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="footer-col">
+     <div class="footer-col-header">
+      <div class="footer-col-name">
+       Последвай ни
+      </div>
+     </div>
+     <div class="footer-divider">
+     </div>
+     <div class="footer-col-content footer-social-media-links">
+      <a class="footer-social-link w-inline-block" href="https://www.facebook.com/devbulgaria/">
+       <img alt="" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-facebook_1.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+       <noscript>
+        <img alt="" src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-facebook_1.svg"/>
+       </noscript>
+      </a>
+      <a class="footer-social-link w-inline-block" href="https://www.linkedin.com/company/dev.bg/">
+       <img alt="" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-linkedin_1.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+       <noscript>
+        <img alt="" src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-linkedin_1.svg"/>
+       </noscript>
+      </a>
+      <a class="footer-social-link w-inline-block" href="https://www.instagram.com/dev.bulgaria/">
+       <img alt="" data-lazy-src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-instagram-1.svg" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E"/>
+       <noscript>
+        <img alt="" src="https://dev.bg/wp-content/themes/jobsdevbg/images/icons8-instagram-1.svg"/>
+       </noscript>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <style>
+   .cmplz-placeholder-element > blockquote.fb-xfbml-parse-ignore {
+			margin: 0 20px;
+		}
+  </style>
+  <script id="post-views-counter-frontend-js-extra">
+   var pvcArgsFrontend = {"mode":"ajax","requestURL":"https:\/\/dev.bg\/wp-content\/plugins\/post-views-counter\/includes\/ajax.php","postID":"451","nonce":"b807928ba6"};
+  </script>
+  <script id="post-views-counter-frontend-js" src="https://dev.bg/wp-content/plugins/post-views-counter/js/frontend.js?ver=1.3.4">
+  </script>
+  <script id="so-wpcf7-enhancments-js-extra">
+   var sо_wpcf7_enhancments = {"submit_label_sending":"\u0418\u0437\u043f\u0440\u0430\u0449\u0430\u043d\u0435 ..."};
+  </script>
+  <script id="so-wpcf7-enhancments-js" src="https://dev.bg/wp-content/plugins/so-jobs-enhancements/assets/js/wpcf7_enhancments.js?ver=1.0">
+  </script>
+  <script id="wp-job-manager-company-listings-main-js" src="https://dev.bg/wp-content/plugins/wp-job-manager-company-listings/assets/js/wp-job-manager-company-listings.min.js?ver=1.0.8">
+  </script>
+  <script id="jobsdevbg-navigation-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/navigation.js?ver=1.16.4">
+  </script>
+  <script id="jobsdevbg-custom-js-js-extra">
+   var jobsdevbg_ajax = {"nonce":"206ca02f96","ajax_url":"https:\/\/dev.bg\/wp-admin\/admin-ajax.php","company_signup_complete_page":"https:\/\/dev.bg\/company-signup-complete"};
+  </script>
+  <script id="jobsdevbg-custom-js-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/custom.js?ver=2021101311">
+  </script>
+  <script id="jobsdevbg-user-management-js-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/user-management.js?ver=1.16.4">
+  </script>
+  <script id="jobsdevbg-photoswipe-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/photoswipe.min.js?ver=1.16.4">
+  </script>
+  <script id="jobsdevbg-photoswipe-ui-js" src="https://dev.bg/wp-content/themes/jobsdevbg/js/photoswipe-ui-default.min.js?ver=1.16.4">
+  </script>
+  <script id="cmplz-cookie-js" src="https://dev.bg/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js?ver=5.2.2">
+  </script>
+  <script id="cmplz-cookie-config-js-extra">
+   var complianz = {"static":"","is_multisite_root":"","set_cookies":[],"block_ajax_content":"","banner_version":"11","version":"5.2.2","a_b_testing":"","do_not_track":"","consenttype":"optin","region":"eu","geoip":"","categories":"<div class=\"cmplz-categories-wrap\"><label for=\"cmplz_functional\"><div class=\"cmplz-slider-checkbox\"><input id=\"cmplz_functional\" style=\"color:#191e23\" tabindex=\"0\" data-category=\"cmplz_functional\" class=\"cmplz-consent-checkbox cmplz-slider-checkbox cmplz_functional\" checked disabled size=\"40\" type=\"checkbox\" value=\"1\" \/><span class=\"cmplz-slider cmplz-round \" ><\/span><\/div><span class=\"cc-category\" style=\"color:#191e23\">\u0421\u0442\u0440\u043e\u0433\u043e \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u0438<\/span><\/label><\/div><div class=\"cmplz-categories-wrap\"><label for=\"cmplz_0\"><div class=\"cmplz-slider-checkbox\"><input id=\"cmplz_0\" style=\"color:#191e23\" tabindex=\"0\" data-category=\"cmplz_0\" class=\"cmplz-consent-checkbox cmplz-slider-checkbox cmplz_0\"   size=\"40\" type=\"checkbox\" value=\"1\" \/><span class=\"cmplz-slider cmplz-round \" ><\/span><\/div><span class=\"cc-category\" style=\"color:#191e23\">\u0421\u0432\u044a\u0440\u0437\u0430\u043d\u0438 \u0441 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044f\u043d\u0435\u0442\u043e \u043d\u0430 \u0441\u0430\u0439\u0442\u0430<\/span><\/label><\/div><div class=\"cmplz-categories-wrap\"><label for=\"cmplz_1\"><div class=\"cmplz-slider-checkbox\"><input id=\"cmplz_1\" style=\"color:#191e23\" tabindex=\"0\" data-category=\"cmplz_1\" class=\"cmplz-consent-checkbox cmplz-slider-checkbox cmplz_1\"   size=\"40\" type=\"checkbox\" value=\"1\" \/><span class=\"cmplz-slider cmplz-round \" ><\/span><\/div><span class=\"cc-category\" style=\"color:#191e23\">\u0424\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u0438<\/span><\/label><\/div><div class=\"cmplz-categories-wrap\"><label for=\"cmplz_marketing\"><div class=\"cmplz-slider-checkbox\"><input id=\"cmplz_marketing\" style=\"color:#191e23\" tabindex=\"0\" data-category=\"cmplz_marketing\" class=\"cmplz-consent-checkbox cmplz-slider-checkbox cmplz_marketing\"   size=\"40\" type=\"checkbox\" value=\"1\" \/><span class=\"cmplz-slider cmplz-round \" ><\/span><\/div><span class=\"cc-category\" style=\"color:#191e23\">\u041c\u0430\u0440\u043a\u0435\u0442\u0438\u043d\u0433\u043e\u0432\u0438<\/span><\/label><\/div><style>\t\t\t\t\t.cmplz-slider-checkbox input:checked + .cmplz-slider {\t\t\t\t\t\tbackground-color: #374ffe\t\t\t\t\t}\t\t\t\t\t.cmplz-slider-checkbox input:focus + .cmplz-slider {\t\t\t\t\t\tbox-shadow: 0 0 1px #374ffe;\t\t\t\t\t}\t\t\t\t\t.cmplz-slider-checkbox .cmplz-slider:before {\t\t\t\t\t\tbackground-color: #ffffff;\t\t\t\t\t}.cmplz-slider-checkbox .cmplz-slider-na:before {\t\t\t\t\t\tcolor:#ffffff;\t\t\t\t\t}\t\t\t\t\t.cmplz-slider-checkbox .cmplz-slider {\t\t\t\t\t    background-color: #F56E28;\t\t\t\t\t}\t\t\t\t\t<\/style><style>#cc-window.cc-window .cmplz-categories-wrap .cc-check svg {stroke: #191e23}<\/style>","position":"bottom-left","title":"bottom-left minimal","theme":"minimal","checkbox_style":"slider","use_categories":"visible","use_categories_optinstats":"visible","header":"","accept":"Accept","revoke":"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438","dismiss":"Dismiss","dismiss_timeout":"10","use_custom_cookie_css":"1","custom_css":".cc-window  \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n \r\n\r\n\r\n\r\n.cmplz-categories-wrap, .cc-save-settings { display: none; }\r\n\r\n\r\n#cmplz-consent-ui, #cmplz-post-consent-ui {} \r\n\r\n#cmplz-consent-ui .cmplz-consent-message {} \r\n\r\n#cmplz-consent-ui button, #cmplz-post-consent-ui button {}","readmore_optin":"\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430\u0442\u0430 \u043d\u0438 \u0437\u0430 \u0431\u0438\u0441\u043a\u0432\u0438\u0442\u043a\u0438","readmore_impressum":"Impressum","accept_informational":"Accept","message_optout":"We use cookies to optimize our website and our service.","message_optin":"\u041d\u0430\u0448\u0438\u044f\u0442 \u0441\u0430\u0439\u0442 \u0438\u0437\u043f\u043e\u043b\u0437\u0432\u0430 \u0431\u0438\u0441\u043a\u0432\u0438\u0442\u043a\u0438.\r\n\r\n\u0421 \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u0432\u0430\u043d\u0435\u0442\u043e \u0438\u043c, \u0432\u0438\u0435 \u043d\u0438 \u043f\u043e\u043c\u0430\u0433\u0430\u0442\u0435 \u0434\u0430 \u0441\u0435 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u043c\u0435 \u0438 \u0434\u0430 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u044f\u043c\u0435 \u043f\u043e-\u0434\u043e\u0431\u0440\u0438 \u0443\u0441\u043b\u0443\u0433\u0438 \u043f\u043e \u043d\u0430\u0439-\u0443\u0434\u043e\u0431\u043d\u0438\u044f \u0437\u0430 \u0432\u0430\u0441 \u043d\u0430\u0447\u0438\u043d. \u0417\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u0432\u0438\u0436\u0442\u0435","readmore_optout":"Cookie Policy","readmore_optout_dnsmpi":"Do Not Sell My Personal Information","hide_revoke":"","disable_cookiebanner":"","banner_width":"300","soft_cookiewall":"","type":"opt-in","layout":"basic","dismiss_on_scroll":"","dismiss_on_timeout":"","cookie_expiry":"365","nonce":"b6e0294ba6","url":"https:\/\/dev.bg\/wp-json\/complianz\/v1\/?lang=bg&locale=bg_BG","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"15","cookie_path":"\/","tcf_active":"","colorpalette_background_color":"#ffffff","colorpalette_background_border":"#ffffff","colorpalette_text_color":"#191e23","colorpalette_text_hyperlink_color":"#191e23","colorpalette_toggles_background":"#374ffe","colorpalette_toggles_bullet":"#ffffff","colorpalette_toggles_inactive":"#F56E28","colorpalette_border_radius":"0px 0px 0px 0px","border_width":"1px 1px 1px 1px","colorpalette_button_accept_background":"#374ffe","colorpalette_button_accept_border":"#374ffe","colorpalette_button_accept_text":"#ffffff","colorpalette_button_deny_background":"#f1f1f1","colorpalette_button_deny_border":"#f1f1f1","colorpalette_button_deny_text":"#000000","colorpalette_button_settings_background":"#f1f1f1","colorpalette_button_settings_border":"#374ffe","colorpalette_button_settings_text":"#000000","buttons_border_radius":"5px 5px 5px 5px","box_shadow":"0 0 10px rgba(0, 0, 0, .4)","animation":"none","animation_fade":"","animation_slide":"","tm_categories":"1","cat_num":"2","view_preferences":"Preferences","save_preferences":"\u0417\u0430\u043f\u0430\u0437\u0432\u0430\u043d\u0435 \u043d\u0430 \u0438\u0437\u0431\u043e\u0440\u0430","accept_all":"\u0420\u0430\u0437\u0440\u0435\u0448\u0430\u0432\u0430\u043c \u0432\u0441\u0438\u0447\u043a\u0438","readmore_url":{"eu":"https:\/\/dev.bg\/politika-za-izpolzvane-na-biskvitki\/"},"privacy_link":{"eu":""},"placeholdertext":"Click to accept marketing cookies and enable this content"};
+  </script>
+  <script id="cmplz-cookie-config-js" src="https://dev.bg/wp-content/plugins/complianz-gdpr/assets/js/complianz.min.js?ver=5.2.2">
+  </script>
+  <script id="wp-embed-js" src="https://dev.bg/wp-includes/js/wp-embed.min.js?ver=5.6.2">
+  </script>
+  <!-- This website is powered by Piklist. Learn more at https://piklist.com/ -->
+  <script>
+   try{ (function() {
+            var prefix = "", hash = "D9yVuVL8UXCkjUYc0ihm", rtbhTags = [];
+            rtbhTags.push("pr_"+hash+"_home");
+            var key = "__rtbhouse.lid", lid = window.localStorage.getItem(key);
+            if (!lid) {
+            lid = ""; var pool = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            for (var i = 0; i < 20; i++) lid += pool.charAt(Math.floor(Math.random() * pool.length));
+            window.localStorage.setItem(key, lid);}
+            rtbhTags.push("pr_"+hash+"_lid_" + lid);
+            var ifr = document.createElement("iframe"),
+            sr = encodeURIComponent(document.referrer ? document.referrer : ""),
+            su = encodeURIComponent(document.location.href ? document.location.href : ""),
+            ifrSrc = "https://"+prefix+"creativecdn.com/tags?type=iframe", tmstmp = encodeURIComponent("" + Date.now());
+            for(var i=0; i<rtbhTags.length; i++) {ifrSrc += "&id=" + encodeURIComponent(rtbhTags[i]);}
+            ifrSrc += "&su=" + su + "&sr=" + sr + "&ts=" + tmstmp;
+            ifr.setAttribute("src", ifrSrc); ifr.setAttribute("width", "1");
+            ifr.setAttribute("height", "1"); ifr.setAttribute("scrolling", "no");
+            ifr.setAttribute("frameBorder", "0"); ifr.setAttribute("style", "display:none");
+            ifr.setAttribute("referrerpolicy", "no-referrer-when-downgrade");
+            if(document.body){document.body.appendChild(ifr);}
+            else{window.addEventListener('DOMContentLoaded', function(){document.body.appendChild(ifr);});}
+          })();} catch(e) {}
+  </script>
+  <script>
+   window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)
+  </script>
+  <script async="" data-no-minify="1" src="https://dev.bg/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js">
+  </script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+ </body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1636463380 -->
