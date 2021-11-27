@@ -33,6 +33,20 @@ Set the call to phpmyadmin etc. :8080 ...
 
 flask.sql
 
+```
+CREATE TABLE `categories` (
+  `id` int(11) NOT NULL,
+  `website_id` int(11) DEFAULT NULL,
+  `category_name` text NOT NULL,
+  `category_url` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `website_id` (`website_id`);
+```  
+etc.
+
 ## phpmyadmin
 
 SET PASSWORD = 'flask123';
