@@ -52,6 +52,8 @@ ALTER TABLE `categories`
 ```  
 etc.
 
+Find out how to change passowrd, to edit types, add foreign key etc.
+
 ## phpmyadmin
 
 SET PASSWORD = 'flask123';
@@ -70,15 +72,13 @@ SQL_UID=root
 SQL_PWD=flask123
 ```
 
-
-
-##
-
 ## However/or override it with the command in Windows, while cwd = app folder:
-
+(Study the code and figure it out)
 ```
 cmd /v /c "set SQL_SERVER=localhost&&set SQL_UID=root&&set SQL_PWD=flask123&&set SQL_DATABASE=flask&& python app.py
 ```
+
+![image](https://user-images.githubusercontent.com/23367640/143672318-1ae3cc9e-76d6-4466-a3e7-6296661b86d9.png)
 
 ...
 
