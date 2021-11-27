@@ -4,7 +4,9 @@ A lesson in Flask, web scraping, sqlalchemy, beautifulsoup by Marko, presented d
 
 Twenkid: An exercise, trying it out without the video of the lecture and no prior experience with Flask; on Windows. Figuring out how to set up the DB, adding a batch file for setting the environment variables etc.
 
-## Install WAMP or XAMPP.
+## Install WAMP or XAMPP
+
+WAMP now seems to have nasty requirements of 1000 VS redistributables to install and is bigger, XAMPP is smaller and is OK:
 
 ![image](https://user-images.githubusercontent.com/23367640/143671396-c543d3f8-e10d-4f7d-b552-945136d661c3.png)
 
@@ -44,12 +46,14 @@ SQL_UID=root
 SQL_PWD=flask123
 ```
 
-
-
-## For running in Windows in the app folder:
+## However/or override it with the command in Windows, while cwd = app folder:
 
 ```
 cmd /v /c "set SQL_SERVER=localhost&&set SQL_UID=root&&set SQL_PWD=flask123&&set SQL_DATABASE=flask&& python app.py
 ```
+
+...
+
+## The more interesting part ...
 
 ...
