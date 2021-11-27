@@ -27,11 +27,16 @@ Listen 8081
 
 Set the call to phpmyadmin etc. :8080 ...
 
-## Read the code: apis/models.py and recreate the Database:
+## Study the code, ```__init__.py``` etc. Finding apis/models.py - SQL model, recreate the Database:
 
-(I changed some names to flask, pass: flask123 ...)
+![image](https://user-images.githubusercontent.com/23367640/143672249-c5310df8-dabd-4126-a6a0-21c61f8b48e3.png)
 
-flask.sql
+![image](https://user-images.githubusercontent.com/23367640/143672285-f0b6d106-9c98-4376-8488-afcbbd97f64b.png)
+
+
+I changed some names to flask, pass: flask123 ...
+
+See **flask.sql**
 
 ```
 CREATE TABLE `categories` (
