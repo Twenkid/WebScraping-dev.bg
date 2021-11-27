@@ -2,7 +2,7 @@
 
 A lesson in Flask, web scraping, sqlalchemy, beautifulsoup by Marko, presented during a Dev.bg event.
 
-Twenkid: An exercise, trying it out without the video of the lecture and no prior experience with Flask. Successful setting and debugging.
+Twenkid: An exercise, trying it out without the video of the lecture and no prior experience with Flask on Windows. Adding a batch file for setting the environment variables etc.
 
 ## Install WAMP or XAMPP.
 
