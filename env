@@ -2,7 +2,7 @@ FLASK_ENV=development
 FLASK_DEBUG=1
 FLASK_APP=app.py
 
-SQL_SERVER=localhost
-SQL_DATABASE=dev
+SQL_SERVER=localhost:8080
+SQL_DATABASE=flask
 SQL_UID=root
-SQL_PWD=marko123
+SQL_PWD=flask123
