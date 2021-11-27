@@ -2,7 +2,7 @@
 
 A lesson in Flask, web scraping, sqlalchemy, beautifulsoup by Marko, presented during a Dev.bg event.
 
-Twenkid: An exercise, trying it out without the video of the lecture and no prior experience with Flask; on Windows. Figuring out how to set up the DB, adding a batch file for setting the environment variables etc.
+Twenkid: An exercise, trying it out without the video of the lecture and no prior experience with Flask; on Windows. Figuring out how to set up the DB, adding a batch file for setting the environment variables etc. Reminding/practice of SQL commands etc.
 
 ## Install WAMP or XAMPP
 
@@ -33,6 +33,11 @@ Set the call to phpmyadmin etc. :8080 ...
 
 flask.sql
 
+## phpmyadmin
+
+SET PASSWORD = 'flask123';
+
+
 ## Set the env file:
 
 ```
@@ -45,6 +50,10 @@ SQL_DATABASE=flask
 SQL_UID=root
 SQL_PWD=flask123
 ```
+
+
+
+##
 
 ## However/or override it with the command in Windows, while cwd = app folder:
 
